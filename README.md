@@ -1,6 +1,5 @@
 # Field Force & Trade Marketing Performance Dashboard
-
-![BI Dashnoard](04_PowerBI/dashboar-bi-1.png)
+<img src="04_PowerBI/dashboar-bi-1.png" height="500" alt="Gap Analysis BI Chart" />
 
 ## Business Problem
 Market Express needs visibility into which regions and sales representatives are underperforming, and whether the shortfall is driven by weak selling, poor field execution (visits, merchandising, availability), or both.
@@ -37,9 +36,18 @@ Region → Sales Rep → Account → Order
 - **Status**: Healthy (Achievement ≥ 90% and Merchandising ≥ 80%) / Critical (Achievement < 80% or Merchandising < 70%) / At Risk (otherwise).
 
 ## Gap Analysis
+
+<p align="center">
+  <img src="04_PowerBI/dashboar-bi-3.png" height="250" alt="Gap Analysis BI Chart" />
+  <img src="05_Screenshots/02_gap_analysis-1.png" height="250" alt="Gap Analysis Data Table" />
+</p>
+
+
 `Gap_Analysis` sheet rolls up all 1,250 rep-month records to one row per rep, sorted by `Sales_Gap` ascending (biggest underperformers first), with parallel gaps for visits, merchandising, and availability — so a large sales gap can be diagnosed as an execution problem (weak visits/merchandising/availability too) or a purely commercial one (execution metrics near target).
 
 ## Dashboard
+<img src="04_PowerBI/dashboar-bi-2.png" height="500" alt="Gap Analysis BI Chart" />
+
 Excel `Dashboard` sheet: 5 KPI cards + Sales by Region, Target Achievement by Region, Top 10 Reps by Sales, Bottom 10 Reps by Achievement, Merchandising vs Achievement scatter, and a full Monthly Sales Trend line chart. See `PowerBI_Build_Guide` sheet in the workbook for the equivalent Power BI build (measures, relationships, pages, slicers).
 
 ## Key Findings
