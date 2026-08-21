@@ -1,5 +1,7 @@
 # Field Force & Trade Marketing Performance Dashboard
 
+![BI Dashnoard](04_PowerBI/dashboar-bi-1.png)
+
 ## Business Problem
 Market Express needs visibility into which regions and sales representatives are underperforming, and whether the shortfall is driven by weak selling, poor field execution (visits, merchandising, availability), or both.
 
